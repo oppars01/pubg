@@ -1,3 +1,5 @@
+![CS:GO Türkiye PUB-G](/images/pubg.png)
+
 # Description
 
 **[EN]** PUB-G Adaptation for CS:GO Game
@@ -18,4 +20,4 @@ It is an adaptation of PUB-G designed for use in jailbreak mods in the game "Cou
 | sm_pubg_setting_commands | sm_pubgsetting sm_pubgayar | * Sets the commands for the setting menu.<br>* Set the commands with the **spacebar**.<br>* Maximum Total Character Length: 128<br>*  Max Command: 7<br>* Maximum Command Character Length: 20 | * Ayar menüsü için komutları ayarlar.<br>* Komutları **boşluk** ile ayarlayın.<br>* Maksimum Toplam Karakter Uzunluğu: 128<br>* Maksimum Komut: 7<br>* Maksimum Komut Karakter Uzunluğu: 20 |
 | sm_pubg_main_commands | sm_pubg | * Sets the commands for the main menu.<br>* Set the commands with the **spacebar**.<br>* Maximum Total Character Length: 128<br>* Max Command: 7<br>* Maximum Command Character Length: 20 | * Ana menü için komutları ayarlar.<br>* Komutları **boşluk** ile ayarlayın.<br>* Maksimum Toplam Karakter Uzunluğu: 128<br>* Maksimum Komut: 7<br>* Maksimum Komut Karakter Uzunluğu: 20 |
 
-> [CS:GO Türkiye](https://csgo-turkiye.com/)
+> [CS:GO Türkiye | Türkiye'nin CS:GO Rehberi](https://csgo-turkiye.com/)
