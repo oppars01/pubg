@@ -11,6 +11,25 @@ It is an adaptation of PUB-G designed for use in jailbreak mods in the game "Cou
 
 "Counter-Strike: Global Offensive" oyununda jailbreak modlarında kullanılmak için tasarlanmış bir PUB-G uyarlamasıdır. Eklentinin genel amacı komutçu veya yetkililerin bir roundda PUB-G tarzında bir oyun oynamalarını sağlamaktır.
 
+# Setup (Kurulum)
+
+**[EN]** Upload the given folders to the relevant fields on your CS:GO game server. After you have installed all the files completely, place the SQL setting below in the "csgo/addons/sourcemod/configs/databases.cfg" file. After the database connection is successful, it is enough to make the settings on the map where you will use the plugin.
+
+**[TR]** Verilen klasörleri CS:GO oyun sunucunuza ilgili alanlara yükleyiniz. Tüm dosyaları eksiksiz yükledikten sonra aşağıda bulunan SQL ayarını "csgo/addons/sourcemod/configs/databases.cfg" dosyasına yerleştiriniz. Veritabanı bağlantısı başaralı olduktan sonra eklentiyi kullanacağınız haritada ayarları yapmanız yeterlidir.
+
+```
+"pubg"
+	{
+		"driver"			"sqlite"
+        "host"              "localhost"
+        "database"          "pubg"
+        "user"              "root"
+        "pass"              ""
+        //"timeout"         "0"
+        //"port"            "0"
+	}
+```
+
 # Settings (Ayarlar) [ cvar => csgo/cfg/CSGO_Turkiye/pubg.cfg ]
 
 | cvar          | Default       | EN            | TR            |
