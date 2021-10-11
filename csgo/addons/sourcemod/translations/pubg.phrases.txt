@@ -1,0 +1,1055 @@
+"Phrases"
+{
+	"PUB-G Active"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}This operation cannot be done while the game is active."
+		"tr"			"{orange}{1} {darkred}Oyun aktifken bu işlem yapılamaz."
+	}
+    
+    "PUB-G Database Connect Success"
+    {
+    	"en"			"[PUB-G] Database connection successful."
+		"tr"			"[PUB-G] Veritabanı bağlantısı başarılı."
+    }
+    
+    "PUB-G Database Connect Error"
+	{    	
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}Database connection failed."
+		"tr"			"{orange}{1} {darkred}Veritabanı bağlantısı yapılamadı."
+	}
+    
+    "PUB-G Database Connect Log Error"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"Database connection failed. >> {1}"
+		"tr"			"Veritabanı bağlantısı yapılamadı. >> {1}"
+	}
+    
+    "PUB-G Query Error Log"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"Database Query Error. >> {1}"
+		"tr"			"Veritabanı Sorgu Hatası. >> {1}"
+    }
+    
+    "PUB-G Setting Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Setting Menu"
+		"tr"			"{1} Ayar Menüsü"
+    }
+    
+    "PUB-G New Position"
+    {
+    	"en"			"! Add New Location !"
+		"tr"			"! Yeni Konum Ekleme !"
+    }
+    
+    "PUB-G Delete Position"
+    {
+    	"en"			"! Delete Location !"
+		"tr"			"! Konum Sil !"
+    }
+    
+    "PUB-G Game Menu"
+    {
+    	"en"			"! Open Game Menu !"
+		"tr"			"! Oyun Menüsünü Aç !"
+    }
+    
+    "PUB-G Command Client Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}This command is currently unavailable."
+		"tr"			"{orange}{1} {darkred}Bu komut şuanda kullanılamaz."
+    }
+    
+    "PUB-G Console Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{1} This command can only be used by the player in-game."
+		"tr"			"{1} Bu komut sadece oyun içinde oyuncu tarafından kullanılabilir."
+    }
+    
+    "PUB-G New Position Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Add New Location Menu"
+		"tr"			"{1} Yeni Konum Ekleme Menüsü"
+    }
+    
+    "PUB-G New Client Position"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Add New Client Location - Total >> {1}"
+		"tr"			"! Yeni Oyuncu Konumu Ekle - Toplam >> {1}"
+    }
+    
+    "PUB-G New Drop Position"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Add New Drop Location - Total >> {1}"
+		"tr"			"! Yeni Drop Konumu Ekle - Toplam >> {1}"
+    }
+    
+    "PUB-G Setting Main Menu"
+    {
+    	"en"			"! Open Main Settings Menu !"
+		"tr"			"! Ana Ayar Menüsünü Aç !"
+    }
+    
+    "PUB-G Successful Position Insert"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {green}The location has been successfully saved."
+		"tr"			"{orange}{1} {green}Konum başarıyla kayıt edildi."
+	}
+    
+    "PUB-G Failed Position Insert"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}There was an error in saving location. You can view the error logs."
+		"tr"			"{orange}{1} {darkred}Konum kayıt etme kısmında bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Failed Point Outside World"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}Point out of the world!"
+		"tr"			"{orange}{1} {darkred}Dünyayı işaret edin!"
+    }
+    
+    "PUB-G Max Position Insert Error"
+	{
+    	"#format" 		"{1:s},{2:d}"
+		"en"			"{orange}{1} {darkred}You have reached the maximum limit for adding locations. A maximum of {blue}{2} {darkred}can be added from the specified location."
+		"tr"			"{orange}{1} {darkred}Maksimum konum ekleme sınırına ulaştınız. Maksimum {blue}{2} {darkred}adet belirtilen konumdan eklenebilir."
+	}
+    
+    "PUB-G Delete Position Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Delete Location Menu"
+		"tr"			"{1} Konum Silme Menüsü"
+    }
+    
+    "PUB-G All Map Delete Position"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Delete Locations on All Maps - Total >> {1}"
+		"tr"			"! Tüm Haritalardaki Konumları Sil - Toplam >> {1}"
+    }
+    
+    "PUB-G This Map Delete Position"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Delete Locations on This Maps - Total >> {1}"
+		"tr"			"! Bu Haritadaki Konumları Sil - Toplam >> {1}"
+    }
+    
+    "PUB-G This Map Delete Client Position"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Delete All Client Locations on This Map - Total >> {1}"
+		"tr"			"! Bu Haritadaki Tüm Oyuncu Konumlarını Sil - Toplam >> {1}"
+    }
+    
+    "PUB-G This Map Delete Drop Position"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Delete All Drop Locations on This Map - Total >> {1}"
+		"tr"			"! Bu Haritadaki Tüm Drop Konumlarını Sil - Toplam >> {1}"
+    }
+    
+    "PUB-G This Map Delete Aim Position"
+    {
+    	"en"			"! Delete Aim Location !"
+		"tr"			"! Hedefte Bulunan Konumu Sil !"
+    }
+    
+    "PUB-G Delete Position Map List"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"! Recorded Maps - Total >> {1}"
+		"tr"			"! Kayıt Bulunan Haritalar - Toplam >> {1}"
+    }
+    
+    "PUB-G Successful Delete All Map Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {green}Locations on all maps have been deleted."
+		"tr"			"{orange}{1} {green}Tüm haritalardaki konumlar silindi."
+	}
+    
+    "PUB-G Failed Delete All Map Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}An error occurred while deleting all map locations. You can view the error logs."
+		"tr"			"{orange}{1} {darkred}Tüm harita konumları silinirken bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Successful Delete This Map Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {green}Locations on this map have been deleted."
+		"tr"			"{orange}{1} {green}Bu haritadaki konumlar silindi."
+	}
+    
+    "PUB-G Failed Delete This Map Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}An error occurred while deleting locations on the map. You can view the error logs."
+		"tr"			"{orange}{1} {darkred}Haritadaki konumlar silinirken bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Successful Delete This Map Client Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {green}All player positions on this map have been deleted."
+		"tr"			"{orange}{1} {green}Bu haritadaki tüm oyuncu konumları silindi."
+	}
+    
+    "PUB-G Failed Delete This Map Client Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}An error occurred while deleting player positions on the map. You can view the error logs."
+		"tr"			"{orange}{1} {darkred}Haritadaki oyuncu konumları silinirken bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Successful Delete This Map Drop Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {green}All drop positions on this map have been deleted."
+		"tr"			"{orange}{1} {green}Bu haritadaki tüm drop konumları silindi."
+	}
+    
+    "PUB-G Failed Delete This Map Drop Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}An error occurred while deleting drop positions on the map. You can view the error logs."
+		"tr"			"{orange}{1} {darkred}Haritadaki drop konumları silinirken bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Aim Not Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}Your aim does not have any position records."
+		"tr"			"{orange}{1} {darkred}Hedefinizde herhangi bir konum kaydı bulunmuyor."
+	}
+    
+    "PUB-G Successful Delete Aim Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {green}The location on the aim has been deleted."
+		"tr"			"{orange}{1} {green}Hedefte bulunan konum silindi."
+	}
+    
+    "PUB-G Failed Delete Aim Position"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}An error occurred while deleting the location on the aim. You can view the error logs."
+		"tr"			"{orange}{1} {darkred}Hedefdeki konum silinirken bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Delete Position Map List Menu Title"
+    {
+    	"#format" 		"{1:s},{2:d}"
+    	"en"			"{1} Maps with Saved Locations (All Locations of the Selected Map will be Deleted) - Total: {2}"
+		"tr"			"{1} Konumları Kayıtlı Haritalar (Seçilen Haritanın Tüm Konumları Silinecektir) - Toplam: {2}"
+    }
+    
+    "PUB-G Delete Menu"
+    {
+    	"en"			"! Open Delete Location Menu !"
+		"tr"			"! Konum Silme Menüsünü Aç !"
+    }
+    
+    "PUB-G Successful Delete Map Select Position"
+	{
+    	"#format" 		"{1:s}{2:s}"
+		"en"			"{orange}{1} {green}All locations on the {blue}{2} {green}map have been deleted."
+		"tr"			"{orange}{1} {blue}{2}{green} haritasındaki tüm konumlar silindi."
+	}
+    
+    "PUB-G Failed Delete Map Select Position"
+	{
+    	"#format" 		"{1:s}{2:s}"
+		"en"			"{orange}{1} {blue}{2}{darkred} An error occurred while deleting all locations on the {blue}{2}{darkred} map. You can view the error logs."
+		"tr"			"{orange}{1} {blue}{2}{darkred} haritasındaki tüm konumlar silinirken bir hata oluştu. Hata kayıtlarına bakabilirsiniz."
+	}
+    
+    "PUB-G Drop Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}Unable to continue because an error occurred in the drop operation."
+		"tr"			"{orange}{1} {darkred}Drop işleminde bir hata oluştuğu için devam edilemiyor."
+    }
+    
+    "PUB-G Drop Info"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightblue}The drop is created by {darkblue}{2}{lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {lightblue}tarafından drop  oluşuruldu."
+    }
+    
+    "PUB-G Zones Info"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{1} Please do not try to enter under the drop."
+		"tr"			"{1} Lütfen drop altına girmeye çalışmayınız."
+    }
+    
+    "PUB-G Main Menu Authority Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}You do not have access to this command!"
+		"tr"			"{orange}{1} {darkred}Bu komuta erişiminiz yok!"
+    }
+    
+    "PUB-G Main Menu Player Count Error"
+    {
+    	"#format" 		"{1:s}{2:d}"
+		"en"			"{orange}{1} {darkred}There must be at least {orchid}{2} {darkred}prisoners to use this command."
+		"tr"			"{orange}{1} {darkred}Bu komutu kullanmak için en az {orchid}{2} {darkred}mahkum bulunmalı."
+    }
+    
+    "PUB-G Main Menu Setting Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}The game settings do not meet the required requirements."
+		"tr"			"{orange}{1} {darkred}Oyun ayarları gerekli şartları karşılamıyor."
+    }
+    
+    "PUB-G Main Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Game Menu"
+		"tr"			"{1} Oyun Menüsü"
+    }
+    
+   "PUB-G Game Start"
+    {
+    	"en"			"! Game Start !"
+		"tr"			"! Başlat !"
+    }
+    
+    "PUB-G Game Stop"
+    {
+    	"en"			"! Game Stop !"
+		"tr"			"! Durdur !"
+    }
+    
+    "PUB-G Weapon Setting"
+    {
+    	"en"			"! Weapon Setting !"
+		"tr"			"! Silah Ayarları !"
+    }
+    
+    "PUB-G Team No"
+    {
+    	"en"			"! No Team !"
+		"tr"			"! Takım Yok !"
+    }
+    
+    "PUB-G Team On FF Off"
+    {
+    	"en"			"! Team Open In Team FF Closed !"
+        "tr"			"! Takım Açık Takım İçi FF Kapalı !"
+    }
+    
+    "PUB-G Team On FF On"
+    {
+    	"en"			"! Team and In-Team FF Open !"
+        "tr"			"! Takım ve Takım İçi FF Açık !"
+    }
+    
+    "PUB-G Auto Obstacle"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"[{1}] Auto Obstacle !"
+		"tr"			"[{1}] Otomatik Engel !"
+    }
+    
+    "PUB-G Auto Drop"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"[{1}] Auto Drop !"
+		"tr"			"[{1}] Otomatik Drop !"
+    }
+    
+    "PUB-G Weapon Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Weapon Setting Menu"
+		"tr"			"{1} Silah Ayar Menüsü"
+    }
+    
+    "PUB-G Main Menu"
+    {
+    	"en"			"! Open Main Menu !"
+		"tr"			"! Ana Menüyü Aç !"
+    }
+    
+    "PUB-G Weapon 1"
+    {
+    	"en"			"! Primary Weapons !"
+		"tr"			"! Birincil Silahlar !"
+    }
+    
+    "PUB-G Weapon 2"
+    {
+    	"en"			"! Secondary Weapons Weapons !"
+		"tr"			"! İkincil Silahlar !"
+    }
+    
+    "PUB-G Bombs"
+    {
+    	"en"			"! Bombs !"
+		"tr"			"! Bombalar !"
+    }
+    
+    "PUB-G Other Weapon"
+    {
+    	"en"			"! Other !"
+		"tr"			"! Diğer !"
+    }
+    
+    "PUB-G Reset Weapon"
+    {
+    	"en"			"! Reset Weapon Settings !"
+		"tr"			"! Silah Ayarlarını Sıfırla !"
+    }
+    
+    "PUB-G Weapon Menu"
+    {
+    	"en"			"! Open Weapon Menu !"
+		"tr"			"! Silah Menüsünü Aç !"
+    }
+    
+    "PUB-G Weapon Spawn Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}There was an error in the weapon drop operation."
+		"tr"			"{orange}{1} {darkred}Silah drop işleminde bir hata oluştu."
+    }
+    
+    "PUB-G Weapon Spawn"
+    {
+    	"#format" 		"{1:s}{2:N}{3:s}"
+		"en"			"{orange}{1} {lightblue}Found {darkblue}{3} {lightblue}by {darkblue}{2} {lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {lightblue}tarafından {darkblue}{3} {lightblue}bulundu."
+    }
+    
+    "PUB-G Weapon Count Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}At least 1 weapon must be active!"
+		"tr"			"{orange}{1} {darkred}En az 1 adet silah aktif olmalıdır!"
+    }
+    
+    "PUB-G Add Obstacle"
+    {
+    	"en"			"! Add Obstacle !"
+		"tr"			"! Engel Ekle !"
+    }
+    
+    "PUB-G Add Drop Point"
+    {
+    	"en"			"! Add Drop Point !"
+		"tr"			"! Drop Noktası Ekle !"
+    }
+    
+    "PUB-G Add Drop"
+    {
+    	"en"			"! Add Drop !"
+		"tr"			"! Drop Ekle !"
+    }
+    
+    "PUB-G Add Time +10"
+    {
+    	"en"			"! Add 10 Seconds to Countdown !"
+		"tr"			"! Geri Sayıma 10 Saniye Ekle !"
+    }
+    
+    "PUB-G All Respawn"
+    {
+    	"en"			"! Revive the Dead !"
+		"tr"			"! Ölüleri Canlandır !"
+    }
+    
+    "PUB-G Rallying Point and Time"
+    {
+    	"en"			"! Rallying Point and Time !"
+		"tr"			"! Toplanma Noktası ve Zamanı !"
+    }
+    
+    "PUB-G Team Off"
+    {
+    	"en"			"! Team Off !"
+		"tr"			"! Takım Kapat !"
+    }
+    
+    "PUB-G Obstacle Info"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightblue}The obstacle is created by {darkblue}{2}{lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {lightblue}tarafından engel oluşuruldu."
+    }
+    
+    "PUB-G Obstacle Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}The obstacle could not be created."
+		"tr"			"{orange}{1} {darkred}Engel oluşturulamadı."
+    }
+    
+    "PUB-G Start"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightgreen}Game started by {green}{2}{lightgreen}."
+		"tr"			"{orange}{1} {green}{2} {lightgreen}tarafından oyun başlatıldı."
+    }
+    
+    "PUB-G Stop"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightgreen}Game stopped by {green}{2}{lightgreen}."
+		"tr"			"{orange}{1} {green}{2} {lightgreen}tarafından oyun durduruldu."
+    }
+    
+    "PUB-G Team Off Chat"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightblue}The team has been closed by {darkblue}{2}{lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {lightblue}tarafından takım kapatıldı."
+    }
+    
+    "PUB-G Countdown Timer Start"
+    {
+    	"#format" 		"{1:d}"
+    	"en"			"{1} seconds to PUB-G Game Start"
+		"tr"			"{1} saniye sonra PUB-G Oyunu Başlıyor"
+    }
+    
+    "PUB-G Add Time"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightgreen}Added 10 seconds to the game start by {green}{2}{lightgreen}."
+		"tr"			"{orange}{1} {green}{2} {lightgreen}tarafından oyunun başlatılmasına 10 saniye eklendi."
+    }
+    
+    "PUB-G All Respawn Chat"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightgreen}Everyone was born by {green}{2}{lightgreen}."
+		"tr"			"{orange}{1} {green}{2} {lightgreen}tarafından af verildi."
+    }
+    
+    "PUB-G Started"
+    {
+		"en"			"PUB-G Started."
+		"tr"			"PUB-G Başladı."
+    }
+    
+    "PUB-G Start Panel"
+    {
+		"en"			"PUB-G Begins. Good Luck :)"
+		"tr"			"PUB-G Başlıyor. Bol Şans :)"
+    }
+    
+    "PUB-G Countdown Damage"
+    {
+		"en"			"You Can't Hurt Anyone in PUB-G Prep Countdown!"
+		"tr"			"PUB-G Hazırlık Geri Sayımında Kimseye Hasar Veremezsin!"
+    }
+    
+    "PUB-G CT Damage"
+    {
+		"en"			"CT Team Can't Damage T Team While Playing PUB-G!"
+		"tr"			"PUB-G Oynanırken CT Takımı T Takımına Hasar Veremez!"
+    }
+    
+    "PUB-G Team Damage"
+    {
+		"en"			"In-Team FF Closed."
+		"tr"			"Takım İçi FF Kapalı."
+    }
+    
+    "PUB-G Command Team Game Status Error"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}In order to be a team, you need to be in the game preparation stage."
+		"tr"			"{orange}{1} {darkred}Takım olabilmek için oyun hazırlık aşamasında olmanız gerek."
+	}
+    
+    "PUB-G Command Team Status Error"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}Team status is closed."
+		"tr"			"{orange}{1} {darkred}Takım durumu kapalı."
+	}
+    
+    "PUB-G Command Team GetClientTeam Error"
+	{
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}You are not in the right team to use this command."
+		"tr"			"{orange}{1} {darkred}Bu komutu kullanabilmek için doğru takımda değilsin."
+	}
+    
+    "PUB-G Command Team Already Have Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}You already have a team. Once you've teamed up with someone, you can't team up with someone else until the game is over."
+		"tr"			"{orange}{1} {darkred}Zaten bir takıma sahipsin. Biri ile takım olduktan sonra oyun bitene kadar başkası ile takım olamazsın."
+    }
+    
+    "PUB-G Command Team Waiting Time Error"
+    {
+    	"#format" 		"{1:s}{2:d}"
+		"en"			"{orange}{1} {darkred}You need to wait a bit before using this command. The time you have to wait is {green}{2} {darkred}seconds."
+		"tr"			"{orange}{1} {darkred}Bu komutu kullanabilmek için biraz beklemen gerek. Beklemen gereken süre {green}{2} {darkred}saniye."
+    }
+    
+    "PUB-G Stop Panel"
+    {
+		"en"			"PUB-G Terminated. Hope You Enjoyed :)"
+		"tr"			"PUB-G Sonlandırıldı. Umarım Keyif Almışınızdır :)"
+    }
+    
+    "PUB-G Team Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Team Menu"
+		"tr"			"{1} Takım Menüsü"
+    }
+    
+    "PUB-G Send Team"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightblue}A team offer has been sent to {darkblue}{2} {lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {lightblue}adlı oyuncuya takım teklifi gönderildi."
+    }
+    
+    "PUB-G Send Team Error"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightblue}A team offer could not be sent to {darkblue}{2} {lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {darkred}adlı oyuncuya takım teklifi gönderilemedi."
+    }
+    
+    "PUB-G Send Team Menu"
+    {
+    	"#format" 		"{1:N}"
+		"en"			"{1} wants to team up with you. Do you confirm?"
+		"tr"			"{1} adlı oyuncu sizin ile takım olmak istiyor. Onaylıyor musunuz?"
+    }
+    
+    "PUB-G Yes Team"
+    {
+    	"#format" 		"{1:s}{2:N}{3:N}"
+		"en"			"{orange}{1} {darkblue}{2} {green}and {darkblue}{3} {green}became teams."
+		"tr"			"{orange}{1} {darkblue}{2} {green}ve  {darkblue}{3} {green}adlı oyuncular takım oldu."
+    }
+    
+    "PUB-G Yes Team Error"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {darkred}You can no longer team up with {darkblue}{2}{darkred}."
+		"tr"			"{orange}{1} {darkblue}{2} {darkred}adlı oyuncu ile artık takım olamazsınız."
+    }
+    
+    "PUB-G Winner"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {darkblue}{2} {green}players won the PUB-G game."
+		"tr"			"{orange}{1} {darkblue}{2} {green}adlı oyuncu PUB-G oyununu kazandı."
+    }
+    
+    "PUB-G Winner Team"
+    {
+    	"#format" 		"{1:s}{2:N}{3:N}"
+		"en"			"{orange}{1} {green}Players {darkblue}{2} {green}and {darkblue}{3} {green} won the PUB-G game as a team."
+		"tr"			"{orange}{1} {darkblue}{2} {green}ve {darkblue}{3} {green}adlı oyuncular takım olarak PUB-G oyununu kazandılar."
+    } 
+    
+     "PUB-G Freeze Menu Title"
+    {
+    	"#format" 		"{1:s}"
+    	"en"			"{1} Set Rallying Point and Time"
+		"tr"			"{1} Toplanma Alanı ve Süre Belirle"
+    }
+    
+    "PUB-G Rallying Point"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"Rallying Point: {1}"
+		"tr"			"Toplanma Noktası: {1}"
+    }
+    
+    "PUB-G Freeze Change"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkblue}Please specify the time and rallying point. If you do not specify anything within 15 seconds, your transaction will be invalid. {darkred}For example; {green}20 Weapons Room"
+		"tr"			"{orange}{1} {darkblue}Lütfen süreyi ve toplanma noktasını belirtiniz. 15 saniye içinde herhangi birşey belirtmezseniz işleminiz geçersiz olacaktır. {darkred}Örneğin; {green}20 Silah Odası"
+    }
+    
+    "PUB-G Freeze Time Error"
+    {
+    	"#format" 		"{1:s}"
+		"en"			"{orange}{1} {darkred}You have not entered a valid period. Please enter a period between 1-999."
+		"tr"			"{orange}{1} {darkred}Geçerli bir süre girmediniz. Lütfen 1-999 arasında bir süre giriniz."
+    }
+    
+    "PUB-G Countdown Timer Stop"
+    {
+    	"#format" 		"{1:d}{2:s}"
+    	"en"			"{1} seconds to PUB-G Game Stop. \nRallying Point: {2}"
+		"tr"			"{1} saniye sonra PUB-G Oyunu Bitiyor.\nToplanma Noktası: {2}"
+    }
+    
+    "PUB-G Freeze Info"
+    {
+    	"#format" 		"{1:s}{2:N}"
+		"en"			"{orange}{1} {lightblue}Game end time given by {darkblue}{2}{lightblue}."
+		"tr"			"{orange}{1} {darkblue}{2} {lightblue}tarafından oyun bitirilme süresi verildi."
+    }
+    
+    "PUB-G Time"
+    {
+    	"#format" 		"{1:d}"
+		"en"			"Time: {1}"
+		"tr"			"Süre: {1}"
+    }
+    
+    "PUB-G Change"
+    {
+		"en"			"Change"
+		"tr"			"Değiştir"
+    }
+    
+    "PUB-G Refresh"
+    {
+    	"en"			"Refresh"
+		"tr"			"Yenile"
+    }
+    
+    "PUB-G Yes"
+    {
+    	"en"			"Yes"
+		"tr"			"Evet"
+    }
+    
+    "PUB-G No"
+    {
+    	"en"			"No"
+		"tr"			"Hayır"
+    }
+    
+    "PUB-G Approve"
+    {
+    	"en"			"Approve"
+        "tr"			"Onayla"
+    }
+
+    "weapon_mp9"
+    {
+		"en"			"MP9"
+		"tr"			"MP9"
+    }
+    
+    "weapon_mp7"
+    {
+		"en"			"MP7"
+		"tr"			"MP7"
+    }
+    
+    "weapon_mp5sd"
+    {
+		"en"			"MP5-SD"
+		"tr"			"MP5-SD"
+    }
+    
+    "weapon_ump45"
+    {
+		"en"			"UMP-45"
+		"tr"			"UMP-45"
+    }
+    
+    "weapon_p90"
+    {
+		"en"			"P90"
+		"tr"			"P90"
+    }
+    
+    "weapon_bizon"
+    {
+		"en"			"PP-BIZON"
+		"tr"			"PP-BIZON"
+    }
+    
+    "weapon_mac10"
+    {
+		"en"			"MAC-10"
+		"tr"			"MAC-10"
+    }
+    
+    "weapon_awp"
+    {
+		"en"			"AWP"
+		"tr"			"AWP"
+    }
+    
+    "weapon_ssg08"
+    {
+		"en"			"SSG 08"
+		"tr"			"SSG 08"
+    }
+    
+    "weapon_sg556"
+    {
+		"en"			"SG 553"
+		"tr"			"SG 553"
+    }
+    
+    "weapon_ak47"
+    {
+		"en"			"AK-47"
+		"tr"			"AK-47"
+    }
+    
+    "weapon_aug"
+    {
+		"en"			"AUG"
+		"tr"			"AUG"
+    }
+    
+    "weapon_m4a1"
+    {
+		"en"			"M4A4"
+		"tr"			"M4A4"
+    }
+    
+    "weapon_m4a1_silencer"
+    {
+		"en"			"M4A1-S"
+		"tr"			"M4A1-S"
+    }
+    
+    "weapon_famas"
+    {
+		"en"			"FAMAS"
+		"tr"			"FAMAS"
+    }
+    
+    "weapon_g3sg1"
+    {
+		"en"			"G3SG1"
+		"tr"			"G3SG1"
+    }
+    
+    "weapon_galilar"
+    {
+		"en"			"GALIL AR"
+		"tr"			"GALIL AR"
+    }
+    
+    "weapon_m249"
+    {
+		"en"			"M249"
+		"tr"			"M249"
+    }
+    
+    "weapon_mag7"
+    {
+		"en"			"MAG-7"
+		"tr"			"MAG-7"
+    }
+    
+    "weapon_negev"
+    {
+		"en"			"NEGEV"
+		"tr"			"NEGEV"
+    }
+    
+    "weapon_nova"
+    {
+		"en"			"NOVA"
+		"tr"			"NOVA"
+    }
+    
+    "weapon_sawedoff"
+    {
+		"en"			"SAWED-OFF"
+		"tr"			"SAWED-OFF"
+    }
+    
+    "weapon_scar20"
+    {
+		"en"			"SCAR-20"
+		"tr"			"SCAR-20"
+    }
+    
+    "weapon_xm1014"
+    {
+		"en"			"XM1014"
+		"tr"			"XM1014"
+    }
+    
+    "weapon_deagle"
+    {
+		"en"			"DEAGLE"
+		"tr"			"DEAGLE"
+    }
+    
+    "weapon_elite"
+    {
+		"en"			"DUAL BERETTAS"
+		"tr"			"ÇİFT BARETTA"
+    }
+    
+    "weapon_fiveseven"
+    {
+		"en"			"FIVE SEVEN"
+		"tr"			"FIVE SEVEN"
+    }
+    
+    "weapon_glock"
+    {
+		"en"			"GLOCK"
+		"tr"			"GLOCK"
+    }
+    
+    "weapon_hkp2000"
+    {
+		"en"			"P2000"
+		"tr"			"P2000"
+    }
+    
+    "weapon_p250"
+    {
+		"en"			"P250"
+		"tr"			"P250"
+    }
+    
+    "weapon_tec9"
+    {
+		"en"			"TEC-9"
+		"tr"			"TEC-9"
+    }
+    
+    "weapon_cz75a"
+    {
+		"en"			"CZ75-AUTO"
+		"tr"			"CZ75-OTOMATİK"
+    }
+    
+    "weapon_usp_silencer"
+    {
+		"en"			"USP-S"
+		"tr"			"USP-S"
+    }
+    
+    "weapon_revolver"
+    {
+		"en"			"R8 REVOLVER"
+		"tr"			"R8 REVOLVER"
+    }
+    
+    "weapon_molotov"
+    {
+		"en"			"MOLOTOV"
+		"tr"			"MOLOTOF"
+    }
+    
+    "weapon_hegrenade"
+    {
+		"en"			"HE GRENADE"
+		"tr"			"EL BOMBASI"
+    }
+    
+    "weapon_flashbang"
+    {
+		"en"			"FLASHBANG"
+		"tr"			"FLAŞ BOMBASI"
+    }
+    
+    "weapon_decoy"
+    {
+		"en"			"DECOY"
+		"tr"			"YANILTICI BOMBA"
+    }
+    
+    "weapon_smokegrenade"
+    {
+		"en"			"SMOKE"
+		"tr"			"SİS BOMBASI"
+    }
+    
+    "weapon_healthshot"
+    {
+		"en"			"MEDI-SHOT"
+		"tr"			"SAĞLIK AŞISI"
+    }
+    
+    "weapon_tagrenade"
+    {
+		"en"			"TACTICAL AWARENESS GRENADE"
+		"tr"			"TAKSİKSEL FARKINDALIK BOMBASI"
+    }
+    
+    "weapon_bumpmine"
+    {
+		"en"			"BUMP MINE"
+		"tr"			"FIRLATMA MAYINI"
+    }
+    
+    "weapon_breachcharge"
+    {
+		"en"			"BREACH CHARGE"
+		"tr"			"YIKIM BOMBASI"
+    }
+    
+    "weapon_knife"
+    {
+		"en"			"KNIFE"
+		"tr"			"BIÇAK"
+    }
+    
+    "weapon_knifegg"
+    {
+		"en"			"GOLD KNIFE"
+		"tr"			"ALTIN BIÇAK"
+    }
+    
+    "weapon_hammer"
+    {
+		"en"			"HAMMER"
+		"tr"			"ÇEKİC"
+    }
+    
+    "weapon_axe"
+    {
+		"en"			"AXE"
+		"tr"			"BALTA"
+    }
+    
+    "weapon_spanner"
+    {
+		"en"			"SPANNER"
+		"tr"			"İNGİLİZ ANAHTARI"
+    }
+    
+    "weapon_taser"
+    {
+		"en"			"TASER"
+		"tr"			"ZEUS"
+    }
+    
+    "weapon_shield"
+    {
+		"en"			"SHIELD"
+		"tr"			"KALKAN"
+    }
+}
