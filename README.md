@@ -18,16 +18,16 @@ It is an adaptation of PUB-G designed for use in jailbreak mods in the game "Cou
 **[TR]** Verilen klasörleri CS:GO oyun sunucunuza ilgili alanlara yükleyiniz. Tüm dosyaları eksiksiz yükledikten sonra aşağıda bulunan SQL ayarını "csgo/addons/sourcemod/configs/databases.cfg" dosyasına yerleştiriniz. Veritabanı bağlantısı başaralı olduktan sonra eklentiyi kullanacağınız haritada ayarları yapmanız yeterlidir.
 
 ```
-	"pubg"
-	{
-		"driver"			"sqlite"
-		"host"              "localhost"
-		"database"          "pubg"
-		"user"              "root"
-		"pass"              ""
-		//"timeout"         "0"
-		//"port"            "0"
-	}
+"pubg"
+{
+	"driver"			"sqlite"
+	"host"              "localhost"
+	"database"          "pubg"
+	"user"              "root"
+	"pass"              ""
+	//"timeout"         "0"
+	//"port"            "0"
+}
 ```
 
 # Settings (Ayarlar) [ cvar => csgo/cfg/CSGO_Turkiye/pubg.cfg ]
