@@ -20,13 +20,13 @@ It is an adaptation of PUB-G designed for use in jailbreak mods in the game "Cou
 ```
 "pubg"
 {
-	"driver"			"sqlite"
-	"host"              "localhost"
-	"database"          "pubg"
-	"user"              "root"
-	"pass"              ""
-	//"timeout"         "0"
-	//"port"            "0"
+	"driver"	"sqlite"
+	"host"		"localhost"
+	"database"	"pubg"
+	"user"		"root"
+	"pass"		""
+	//"timeout"	"0"
+	//"port"	"0"
 }
 ```
 
