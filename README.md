@@ -65,7 +65,6 @@ It is an adaptation of PUB-G designed for use in jailbreak mods in the game "Cou
 # Planned Updates (Planlanan Güncellemeler)
 
 - [ ] Air Strike (Hava Saldırısı)
-- [ ] Reviving a Teammate (Takım Arkadaşını Canlandırma)
 
 
 > [CS:GO Türkiye | Türkiye'nin CS:GO Rehberi](https://csgo-turkiye.com/)
