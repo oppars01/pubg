@@ -1,4 +1,4 @@
-![CS:GO Türkiye PUB-G](/images/pubg.png)
+<a href="https://csgo-turkiye.com" target="_blank">![CS:GO Türkiye PUB-G](/images/pubg.png)</a>
 
 # Description (Açıklama)
 
