@@ -66,5 +66,4 @@ It is an adaptation of PUB-G designed for use in jailbreak mods in the game "Cou
 
 - [ ] Air Strike (Hava Saldırısı)
 
-
 > [CS:GO Türkiye | Türkiye'nin CS:GO Rehberi](https://csgo-turkiye.com/)
