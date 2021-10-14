@@ -1,4 +1,4 @@
-<a href="https://csgo-turkiye.com">![CS:GO Türkiye PUB-G](https://github.com/tncykrkyl/pubg/blob/main/images/pubg.png?raw=true)</a>
+<a href="https://csgo-turkiye.com">![CS:GO Türkiye PUB-G](https://github.com/tncykrkyl/pubg/blob/main/images/pubg2.png?raw=true)</a>
 
 # Description (Açıklama)
 
