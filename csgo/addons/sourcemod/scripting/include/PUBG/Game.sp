@@ -645,7 +645,7 @@ Action CountdownTimerStart(Handle timer, any data)
                     UnFreezePlayer(i);
                 }
             }
-            for (int i = 1; i <= MaxClients; i++)if (IsValidClient(i) && !IsFakeClient(i))PrintHintText(i, "%t","PUB-G Started");
+            for (int i = 1; i <= MaxClients; i++)if (IsValidClient(i) && !IsFakeClient(i)){PrintHintText(i, "%t","PUB-G Started");clientTime[i]=-1;}
             GameControl();
         }
     }
