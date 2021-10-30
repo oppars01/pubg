@@ -1,7 +1,6 @@
 #include <sourcemod>
 #include <multicolors>
 #include <sdktools>
-#include <multicolors>
 #include <sdkhooks>
 #include <clientprefs>
 #include <cstrike>
