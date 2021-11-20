@@ -8,11 +8,11 @@
 #include <emitsoundany>
 #include <warden>
 
-#include "PUBG/Global.sp"
-#include "PUBG/Game.sp"
-#include "PUBG/SQL.sp"
-#include "PUBG/Download.sp"
-#include "PUBG/Drop.sp"
+#include "include/PUBG/Global.sp"
+#include "include/PUBG/Game.sp"
+#include "include/PUBG/SQL.sp"
+#include "include/PUBG/Download.sp"
+#include "include/PUBG/Drop.sp"
 
 #pragma semicolon 1
 
