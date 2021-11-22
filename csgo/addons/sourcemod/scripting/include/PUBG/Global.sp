@@ -58,9 +58,7 @@ public void OnPluginStart()
 public void OnMapStart()
 {
     GetCurrentMap(mapName, sizeof(mapName));
-    /*
     if (StrContains(mapName, "jb_", false) == -1 && StrContains(mapName, "jail_", false) == -1 && StrContains(mapName, "ba_jail", false) == -1)SetFailState("[PUB-G] This plugin is only active in jailbreak mode.");
-    */
     GetConVarString(cv_pubg_tag, pubg_tag, sizeof(pubg_tag));
     FindConVar("game_type").GetString(gameType,sizeof(gameType));
     FindConVar("game_mode").GetString(gameMode,sizeof(gameMode));

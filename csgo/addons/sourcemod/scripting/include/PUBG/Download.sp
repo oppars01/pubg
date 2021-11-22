@@ -4,21 +4,21 @@ public void Download()
 {
     PrecacheDecalAnyDownload("models/csgo-turkiye_com/plugin/pubg/pubg-loading");
 
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_Birincil.dx90.vtx");
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil.mdl");
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_Birincil.phy");
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil.vvd");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.dx90.vtx");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.phy");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.vvd");
     AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/pubg_birincil.vmt");
     AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/pubg_birincil.vtf");
-    PrecacheModel("models/csgo-turkiye_com/plugin/pubg/pubg_birincil.mdl");
+    PrecacheModel("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl");
 
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_Ikincil.dx90.vtx");
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.mdl");
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_Ikincil.phy");
-    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.vvd");
-    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.vmt");
-    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.vtf");
-    PrecacheModel("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.mdl");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.dx90.vtx");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.mdl");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.phy");
+    AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.vvd");
+    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/icon/pubg_ikincil.vmt");
+    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/icon/pubg_ikincil.vtf");
+    PrecacheModel("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.mdl");
 
     AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/parachute.dx90.vtx");
     AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/parachute.mdl");
@@ -79,6 +79,6 @@ public void Download()
     AddFileToDownloadsTable("sound/csgo-turkiye_com/pubg/pubg_weapon_pickup.mp3");
     PrecacheSoundAny("csgo-turkiye_com/pubg/pubg_weapon_pickup.mp3", false);
 
-    beamSprite = PrecacheModel("sprites/laserbeam.vmt");
+    beamSprite = PrecacheModel("materials/sprites/laserbeam.vmt");
     haloSprite = PrecacheModel("materials/sprites/halo.vmt");
 }
