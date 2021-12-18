@@ -349,7 +349,7 @@ int PUBG_DeletePosition_Menu_Callback(Menu menu, MenuAction action, int client, 
                         GetEdictClassname(entity, className, sizeof(className));
                         GetEntPropString(entity, Prop_Data, "m_ModelName", modelName, sizeof(modelName));
                         GetEntPropString(entity, Prop_Data, "m_iName", targetName, sizeof(targetName));
-                        if (StrEqual(className, "prop_door_rotating") && (StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_birincil.mdl") || StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.mdl")) && StrEqual(targetName, "csgo-turkiye_com-pubg") && GetEntPropEnt(entity, Prop_Send, "m_hOwnerEntity") == -1)
+                        if (StrEqual(className, "prop_door_rotating") && (StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl") || StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.mdl")) && StrEqual(targetName, "csgo-turkiye_com-pubg") && GetEntPropEnt(entity, Prop_Send, "m_hOwnerEntity") == -1)
                         {
                             float position[3];
                             GetEntPropVector(entity, Prop_Send, "m_vecOrigin", position);
@@ -482,7 +482,7 @@ void DeleteSettingModel()
             GetEdictClassname(i, className, sizeof(className));
             GetEntPropString(i, Prop_Data, "m_ModelName", modelName, sizeof(modelName));
             GetEntPropString(i, Prop_Data, "m_iName", targetName, sizeof(targetName));
-            if (StrEqual(className, "prop_door_rotating") && (StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_birincil.mdl") || StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.mdl")) && StrEqual(targetName, "csgo-turkiye_com-pubg") && GetEntPropEnt(i, Prop_Send, "m_hOwnerEntity") == -1)
+            if (StrEqual(className, "prop_door_rotating") && (StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl") || StrEqual(modelName, "models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.mdl")) && StrEqual(targetName, "csgo-turkiye_com-pubg") && GetEntPropEnt(i, Prop_Send, "m_hOwnerEntity") == -1)
             {
                 RemoveEntity(i);
             }

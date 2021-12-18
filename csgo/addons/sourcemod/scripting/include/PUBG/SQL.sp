@@ -82,11 +82,11 @@ void SettingModelLoad()
                 char modelPath[128];
                 if (SQL_FetchInt(DBRS_Query, 0) == 0)
                 {
-                    Format(modelPath, sizeof(modelPath), "models/csgo-turkiye_com/plugin/pubg/pubg_birincil.mdl");
+                    Format(modelPath, sizeof(modelPath), "models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl");
                 }
                 else
                 {
-                    Format(modelPath, sizeof(modelPath), "models/csgo-turkiye_com/plugin/pubg/pubg_ikincil.mdl");
+                    Format(modelPath, sizeof(modelPath), "models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.mdl");
                 }
                 int new_entity = CreateEntityByName("prop_door_rotating");
                 if (IsValidEntity(new_entity))

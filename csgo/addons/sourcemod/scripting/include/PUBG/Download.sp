@@ -8,8 +8,8 @@ public void Download()
     AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl");
     AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.phy");
     AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.vvd");
-    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/pubg_birincil.vmt");
-    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/pubg_birincil.vtf");
+    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/icon/pubg_birincil.vmt");
+    AddFileToDownloadsTable("materials/models/csgo-turkiye_com/plugin/pubg/icon/pubg_birincil.vtf");
     PrecacheModel("models/csgo-turkiye_com/plugin/pubg/pubg_birincil_icon.mdl");
 
     AddFileToDownloadsTable("models/csgo-turkiye_com/plugin/pubg/pubg_ikincil_icon.dx90.vtx");
