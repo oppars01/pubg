@@ -351,9 +351,6 @@ int SpawnButton(float pos[3], int entityDrop)
     DispatchKeyValue(entity, "targetname", targetName);
     DispatchSpawn(entity);
     ActivateEntity(entity);
-    TeleportEntity(entity, pos, NULL_VECTOR, NULL_VECTOR);
-    SetEntProp(entity, Prop_Send, "m_nSolidType", 2);
-    SetEntProp(entity, Prop_Send, "m_fEffects", GetEntProp(entity, Prop_Send, "m_fEffects") | 32);
     float vecMins[3] = {-30.0, -30.0, -30.0};
     float vecMaxs[3] = {30.0, 30.0, 30.0};
     SetEntPropVector(entity, Prop_Send, "m_vecMins", vecMins);
