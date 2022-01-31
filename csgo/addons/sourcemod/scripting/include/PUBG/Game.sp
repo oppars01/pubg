@@ -548,7 +548,7 @@ void GameStop(bool freezePlayer){
     if (GetConVarInt(FindConVar("mp_friendlyfire")) != 0)SetCvar("mp_friendlyfire", 0);
     if (GetConVarInt(FindConVar("mp_respawn_on_death_t")) != 0)SetCvar("mp_respawn_on_death_t", 0);
     EmitSoundToAllAny("csgo-turkiye_com/pubg/pubg_game_end.mp3", -2, 0, 75, 0, 1.0, 100, -1, NULL_VECTOR, NULL_VECTOR, true, 0.0);
-    for (new i=1; i<=MaxClients; i++)if (IsValidClient(i) && !IsFakeClient(i)){
+    for (new i=1; i<=MaxClients; i++)if (IsValidClient(i) && !IsFakeClient(i) && GetClientTeam(i) == 2){
         Player_PUBG_Stop(i,freezePlayer);
     }
     AllSelfMute(true);
@@ -589,10 +589,10 @@ void Player_PUBG(int client){
             Format(playerModel, sizeof(playerModel), "models/player/custom_player/legacy/tm_jumpsuit_variantc.mdl");
         }
     }
-    SetEntityModel(client, playerModel)
+    SetEntityModel(client, playerModel);
     SetEntPropString(client, Prop_Send, "m_szArmsModel", "models/weapons/t_arms_phoenix.mdl", 0);
     SDKHook(client, SDKHook_OnTakeDamage, OnTakeDamage);
-    ClientReset(client)
+    ClientReset(client);
 }
 
 void Player_PUBG_Stop(int client,bool freezePlayer){
@@ -656,7 +656,7 @@ Action CountdownTimerStop(Handle timer, any data)
 {
     if(pubg_status=='2'){
         if(tempTimer>0){
-            for (int i = 1; i <= MaxClients; i++)if (IsValidClient(i) && !IsFakeClient(i))PrintHintText(i, "%t","PUB-G Countdown Timer Stop", tempTimer,rallyingPoint);
+            for (int i = 1; i <= MaxClients; i++)if (IsValidClient(i) && !IsFakeClient(i))PrintHintText(i, "%t","PUB-G Countdown Timer Stop", tempTimer, rallyingPoint);
             tempTimer--;
             CreateTimer(1.0, CountdownTimerStop, _, TIMER_FLAG_NO_MAPCHANGE);
         }else{
