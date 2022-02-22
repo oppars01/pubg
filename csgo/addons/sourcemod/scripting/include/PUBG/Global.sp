@@ -26,21 +26,24 @@ public void OnPluginStart()
     char pubg_setting_commands[128], pubg_setting_commands_array[7][20],pubg_main_commands[128], pubg_main_commands_array[7][20],pubg_team_commands[128], pubg_team_commands_array[7][20];
 
     GetConVarString(cv_command_setting, pubg_setting_commands, sizeof(pubg_setting_commands));
-    for (int i = 0; i < ExplodeString(pubg_setting_commands, " ", pubg_setting_commands_array, sizeof(pubg_setting_commands_array), sizeof(pubg_setting_commands_array[])); i++)
+    int i_count = ExplodeString(pubg_setting_commands, " ", pubg_setting_commands_array, sizeof(pubg_setting_commands_array), sizeof(pubg_setting_commands_array[]));
+    for (int i = 0; i < i_count; i++)
     {
         RegAdminCmd(pubg_setting_commands_array[i], PUBG_Setting, ADMFLAG_ROOT, "Sets the PUB-G Game");
         PrintToServer("[PUB-G] Setting Command Loaded: %s", pubg_setting_commands_array[i]);
     }
 
     GetConVarString(cv_command_main, pubg_main_commands, sizeof(pubg_main_commands));
-    for (int i = 0; i < ExplodeString(pubg_main_commands, " ", pubg_main_commands_array, sizeof(pubg_main_commands_array), sizeof(pubg_main_commands_array[])); i++)
+    i_count = ExplodeString(pubg_main_commands, " ", pubg_main_commands_array, sizeof(pubg_main_commands_array), sizeof(pubg_main_commands_array[]));
+    for (int i = 0; i < i_count; i++)
     {
         RegConsoleCmd(pubg_main_commands_array[i], PUBG_Main);
         PrintToServer("[PUB-G] Main Command Loaded: %s", pubg_main_commands_array[i]);
     }
 
     GetConVarString(cv_command_team, pubg_team_commands, sizeof(pubg_team_commands));
-    for (int i = 0; i < ExplodeString(pubg_team_commands, " ", pubg_team_commands_array, sizeof(pubg_team_commands_array), sizeof(pubg_team_commands_array[])); i++)
+    i_count = ExplodeString(pubg_team_commands, " ", pubg_team_commands_array, sizeof(pubg_team_commands_array), sizeof(pubg_team_commands_array[]));
+    for (int i = 0; i < i_count; i++)
     {
         RegConsoleCmd(pubg_team_commands_array[i], PUBG_Team);
         PrintToServer("[PUB-G] Team Command Loaded: %s", pubg_team_commands_array[i]);
