@@ -246,7 +246,7 @@ void MotionEntity(ArrayList DataArray)
     if (entityDrone != -1 || entityDrop != -1 || entityParac != -1)
     {
         RequestFrame(MotionEntity, DataArray);
-    }
+    }else delete DataArray;
 }
 
 void RemoveDrop(int entityDrone, int entityDrop, int entityParac)
