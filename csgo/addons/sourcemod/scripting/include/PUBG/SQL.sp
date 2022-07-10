@@ -49,7 +49,7 @@ int CountData(char[] query)
         SQL_GetError(g_hDB, error, sizeof(error));
         ErrorLog("PUB-G Query Error Log", error);
     }
-    if (!SQL_GetRowCount(DBRS_Query) || !SQL_FetchRow(DBRS_Query))
+    if (!SQL_FetchRow(DBRS_Query))
     {
         count = 0;
     }
